@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8f0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #f8b4b4;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hero {
+    padding: 5rem 2rem;
+    text-align: center;
+    background: url('/public/hero-image.jpg') no-repeat center/cover;
+    color: white;
+  }
+  
+  .btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #f8b4b4;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .about, .delivery, .events, .pentagon-section, .square-section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .event-cards, .square-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .event-card, .square-card {
+    background-color: #ffe4e4;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 200px;
+  }
+  
+  .pentagon-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  .pentagon-card {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: #f9d5d5;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .top { top: 0; left: 140px; }
+  .right-top { top: 80px; left: 280px; }
+  .right-bottom { bottom: 80px; left: 280px; }
+  .left-bottom { bottom: 80px; left: 0; }
+  .left-top { top: 80px; left: 0; }
+  
+  .footer {
+    background: linear-gradient(135deg, #288f03, #0c2858);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .section-title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  

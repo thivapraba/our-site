@@ -1,0 +1,35 @@
+.pentagon-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    clip-path: polygon(
+      50% 0%,
+      90% 35%,
+      73% 90%,
+      27% 90%,
+      10% 35%
+    );
+    animation: rotatePentagon 6s linear infinite;
+  }
+  
+  @keyframes rotatePentagon {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .pentagon-image {
+    transition: transform 0.5s ease;
+  }
+  
+  .pentagon-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .pentagon-section {
+    background: linear-gradient(180deg, #fef6f6, #e9ecef);
+    padding: 0; /* Remove section padding */
+  }

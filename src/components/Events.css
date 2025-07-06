@@ -1,0 +1,38 @@
+.events {
+    background-color: #f8f4ef;
+    border-radius: 0; /* No rounding if you want perfect block fit */
+    box-shadow: none; /* Optional: remove shadow for seamless look */
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .event-cards {
+    padding: 16px;
+  }
+  .events:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+
+  .event-card {
+    padding: 16px;
+  }
+  
+  .event-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    color: #333;
+    margin: 8px 0;
+  }
+
+  .event-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .event-card img {
+    aspect-ratio: 1/1; /* Keeps square ratio for all images */
+    object-fit: cover;
+  }

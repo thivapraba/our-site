@@ -1,0 +1,187 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef7f7;
+    color: #333;
+  }
+  
+  /* Navigation Bar */
+/* Navigation Bar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eec9c9;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #5e2b2b;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #5e2b2b;
+    font-weight: 500;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  /* Section Titles */
+  section h2 {
+    text-align: center;
+    color: #6a3a3f;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Card Grid */
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  /* Card Styling */
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 280px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: #5e2b2b;
+  }
+  
+  .card p {
+    margin: 0 1rem 1rem 1rem;
+    color: #6a3a3f;
+    font-size: 0.95rem;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: #ffecec;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .about h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #503233;
+  }
+  
+  /* Delivery Section */
+  .delivery {
+    background-color: #f4e5e5;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .delivery h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .delivery p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #503233;
+  }
+
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .pentagon-card {
+    width: 250px;
+    height: 250px;
+    background-color: #f9e5e5;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+    transition: transform 0.3s;
+  }
+  
+  .pentagon-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pentagon-image {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pentagon-content h3 {
+    margin: 0.5rem 0;
+    color: #5e2b2b;
+  }
+  
+  .pentagon-content p {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #eec9c9;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #5e2b2b;
+  }
+  

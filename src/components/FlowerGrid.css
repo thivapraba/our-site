@@ -1,0 +1,7 @@
+.flower-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0; /* No space between cards */
+  padding: 0; /* Remove outer padding if you want edge-to-edge */
+  justify-items: center;
+}
