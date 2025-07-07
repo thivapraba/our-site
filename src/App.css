@@ -27,13 +27,6 @@ body {
     color: white;
   }
   
-  .hero {
-    padding: 5rem 2rem;
-    text-align: center;
-    background: url('/public/hero-image.jpg') no-repeat center/cover;
-    color: white;
-  }
-  
   .btn {
     padding: 0.8rem 1.5rem;
     background-color: #f8b4b4;
