@@ -4,7 +4,7 @@ import "./Hero.css";
 function Hero() {
   return (
     <section className="hero-section">
-      <img src={"our-site/Hero.jpg"} alt="Artificial flower bouquets" className="hero-img" />
+      <img src={"/our-site/Hero.jpg"} alt="Artificial flower bouquets" className="hero-img" />
       <div className="hero-overlay"></div>
       <div className="hero-content">
         <h1>Premium Artificial Bouquets</h1>
